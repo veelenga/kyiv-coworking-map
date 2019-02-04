@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <!-- Search Engine -->
+    <meta name="description" content="Kyiv Coworking Map">
+    <!-- Schema.org for Google -->
+    <meta itemprop="name" content="Kyiv Coworking Map">
+    <meta itemprop="description" content="Kyiv Coworking Map">
+    <meta itemprop="image" content="">
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Kyiv Coworking Map">
+    <meta name="twitter:description" content="Kyiv Coworking Map">
+    <meta name="twitter:site" content="@veelenga">
+    <meta name="twitter:creator" content="@veelenga">
+    <meta name="twitter:image:src" content="">
+    <!-- Open Graph general (Facebook, Pinterest & Google+) -->
+    <meta name="og:title" content="Kyiv Coworking Map">
+    <meta name="og:description" content="Kyiv Coworking Map">
+    <meta name="og:image" content="">
+    <meta name="og:url" content="">
+    <meta name="og:site_name" content="Kyiv Coworking Map">
+    <meta name="og:type" content="website">
+
+    <title>Kyiv Coworking Map</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="logo.png">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="map"></div>
+    <footer>
+      <span class="footer-text">Kyiv Coworking Map</span>
+      <span class="space"></span>
+      <span class="made-by">by <a target="_blank "href="https://github.com/veelenga">veelenga</a></span>
+    </footer>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCNyPn9nMaiTL2jaoZb8ZsfFUwK89JAJvY"> </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/yamljs/0.3.0/yaml.min.js"> </script>
+    <script>
+     var URL = 'https://raw.githubusercontent.com/veelenga/kyiv-coworking-map/master/coworkings.yml'
+
+      fetch(URL).then(function(response) {
+        response.text().then(function(data) { initMap(data) })
+      })
+
+      function infoWindowContent(strings) {
+        var [name, url, address] = strings
+
+        var content = `
+          <div id="content">
+            <div id="siteNotice" />
+            <div id="bodyContent">
+              <a href="${url}" target="_blank">${name}</a>
+              <p>${address || ''}</p>
+            </div>
+          </div>
+          `
+        return content
+      }
+
+      function initMap(communities) {
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 12,
+          center: { lat: 50.450064, lng: 30.524104 }
+        })
+
+        var infowindow = new google.maps.InfoWindow({
+          content: ''
+        })
+
+        markers = YAML.parse(communities)
+
+        markers.forEach(function(item) {
+          item['marker'] = new google.maps.Marker({
+            position: {lat: item.lat, lng: item.lng},
+            map: map,
+            title: item.name,
+          })
+
+          item['marker'].addListener('click', function(){
+            infowindow.setContent(infoWindowContent([
+              item.name,
+              item.url,
+              item.address
+            ]))
+            infowindow.open(map, item['marker'])
+          })
+
+        })
+      }
+      </script>
+
+  </body>
+</html>

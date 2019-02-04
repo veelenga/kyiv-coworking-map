@@ -1,0 +1,25 @@
+{
+  "name": "kyiv-coworking-map",
+  "version": "1.0.0",
+  "description": "Kyiv Coworking Map",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/veelenga/kyiv-coworking-map.git"
+  },
+  "keywords": [
+    "kyiv",
+    "coworking",
+    "map"
+  ],
+  "author": "Vitalii Elenhaupt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/veelena/kyiv-coworking-map/issues"
+  },
+  "homepage": "https://github.com/veelenga/kyvi-coworking-map#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "url": "^0.11.0"
+  }
+}

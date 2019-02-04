@@ -1,0 +1,17 @@
+- name: DataHub Network
+  lat: 50.452662
+  lng: 30.446368
+  address: Vadyma Hetmana Street, 1b
+  url: https://data-hub.com.ua/datahub-coworking-shulyavka
+
+- name: DataHub Network
+  lat: 50.433769
+  lng: 30.515425
+  address: Zhylianska Street, 5
+  url: https://data-hub.com.ua/datahub-coworking-zhylanska
+
+- name: DataHub Network
+  lat: 50.436796
+  lng: 30.5197443
+  address: Esplanadna Street, 32b
+  url: https://data-hub.com.ua/datahub-coworking-esplanadaya
