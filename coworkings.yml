@@ -15,3 +15,153 @@
   lng: 30.5197443
   address: Esplanadna Street, 32b
   url: https://data-hub.com.ua/datahub-coworking-esplanadaya
+
+- name: Vremeni Vagon
+  lat: 50.395467
+  lng: 30.636386
+  address: Oleksandra Myshuhy Street, 12
+  url: https://kovorking-tsentr-vremeni-vagon.prom.ua
+
+- name: Creative Quarter Gulliver
+  lat: 50.438867
+  lng: 30.523067
+  address: 1а Sportyvna Square, Gulliver, Tower B, 11 and 12 floors
+  url: https://creativequarter.net
+
+- name: Creative Quarter Astarta
+  lat: 50.472198
+  lng: 30.518459
+  address: 3rd floor, 58 Yaroslavska st
+  url: https://creativequarter.net/en/location/cq-bc-astarta
+
+- name: CHASOPYS
+  lat: 50.439496
+  lng: 30.515106
+  address: 3 Lva Tolstogo St
+  url: http://www.chasopys.ua
+
+- name: GoGarden
+  lat: 50.459221
+  lng: 30.446517
+  address: 3, Oleksandra Dovzhenka St
+  url: https://gogarden.com.ua
+
+- name: Prostir 86
+  lat: 50.414476
+  lng: 30.519236
+  address: Kazimira Malevicha, 86P
+  url: http://kiev.adresa-telefony.ru/prostir86_kovorking_centr-70000001021919493.html
+
+- name: iHUB
+  lat: 50.451767
+  lng: 30.525818
+  address: 10 Khreschatyk Street
+  url: http://ihub.world/en/kyiv-en
+
+- name: Coworking Platforma
+  lat: 50.460903
+  lng: 30.641165
+  address: 1a Belomorskaya street
+  url: https://www.coworkingplatforma.com
+
+- name: Peremoga Space
+  lat: 50.446535
+  lng: 30.494964
+  address: 62 Boulevard Taras Shevchenko
+  url: https://peremoga.space/shevchenka-boulevard
+
+- name: Peremoga Space
+  lat: 50.424606
+  lng: 30.534788
+  address: Yevhena Konovaltsia St, 36
+  url: https://peremoga.space/konovalets
+
+- name: Coworking Platforma Leonardo
+  lat: 50.445699
+  lng: 30.512934
+  address: 52 Volodymyrska street
+  url: https://www.coworkingplatforma.com/leonardo
+
+- name: YOURSPACE
+  lat: 50.437670
+  lng: 30.527374
+  address: 2, Mechnikov St.
+  url: https://yourspace.com.ua
+
+- name: Campus Anticafe
+  lat: 50.446777
+  lng: 30.451935
+  address: 3rd Floor, 128 Borschagivska Str
+  url: http://campus-anticafe.com/
+
+- name: T shaped crew
+  lat: 50.418084
+  lng: 30.476201
+  address: Lobanovskyi Ave, 51
+  url: https://www.facebook.com/tshapedcrew
+
+- name: Inveria
+  lat: 50.447706
+  lng: 30.514383
+  address: Volodymyrska St, 49
+  url: https://inveria.com.ua/
+
+- name: TCEH
+  lat: 50.468066
+  lng: 30.506519
+  address: Frunze St, 15
+  url: http://tceh.com.ua/
+
+- name: Toloka
+  lat: 50.450939
+  lng: 30.597137
+  address: Raisy Okipnoi St, 2
+  url: http://www.toloka.net.ua/
+
+- name: UnderHub
+  lat: 50.437714
+  lng: 30.528908
+  address: Mechnykova St, 3
+  url: https://underhub.com.ua/
+
+- name: Projector
+  lat: 50.465810
+  lng: 30.512319
+  address: Verkhnii Val St, 22
+  url: https://prjctr.com.ua/
+
+- name: COMEIN
+  lat: 50.439009
+  lng: 30.517584
+  address: Velyka Vasylkivska St, 23А
+  url:
+
+- name: iQHUB
+  lat: 50.464796
+  lng: 30.515610
+  address: Kostiantynivska St, 2/1
+  url: http://iqhub.kiev.ua/
+
+- name: Hub 4.0
+  lat: 50.466567
+  lng: 30.508297
+  adress: Yaroslavs'kyi Ln, 1/3
+  url: https://4hub.com.ua/
+
+- name: Bibliotech
+  lat: 50.445480
+  lng: 30.495493
+  adress: Saksahanskoho St, 120
+  url: https://bibliotech.com.ua/
+
+- name: IZONE
+  lat: 50.476569
+  lng: 30.507910
+  adress: Naberezhno-Lugova St, 8
+  url: https://izone.ua/
+
+- name: Creative States
+  lat: 50.435187
+  lng: 30.544632
+  adress:  32 Moskovska Street
+  url: https://creativestates.net
